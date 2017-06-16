@@ -5,6 +5,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript">
+            var accessToken = "\
+        472645e228484dbfab479abd0b955e8f\n\
+";
             var baseUrl = "https://api.api.ai/v1/";
             $(document).ready(function () {
                 $("#input").keypress(function (event) {
